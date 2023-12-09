@@ -1,0 +1,74 @@
+/* ChatComponent.module.css */
+
+.chatContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px; /* Add padding for better readability */
+}
+
+.messageList {
+    display: flex;
+    flex-direction: column;
+    /*background-color: rgba(0, 0, 0, 0.07);*/
+    min-height: 70vh;
+    max-height: 70vh;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.message-left {
+    display: flex;
+    justify-content: flex-start !important;
+    padding: 10px;
+    width: 100%;
+}
+
+.message-right {
+    display: flex;
+    justify-content: flex-end !important;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.messageContent {
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0 20px;
+    max-width: 50%;
+}
+
+.timestamp {
+    color: #888;
+    font-size: 12px;
+}
+
+.onlineUsers {
+    width: 20%;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.input-field {
+    width: 90%;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.messageContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    max-height: 80%;
+}
